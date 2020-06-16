@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
-  data.each_with_object({}) do |(key, index), result|
-    index.each do |value, names|
+  data.each_with_object({}) do |(key, element), result|
+    element.each do |value, names|
       names.each do |name|
         result[name] ||= {}
         result[name][key] ||= []

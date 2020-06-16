@@ -3,8 +3,8 @@ def nyc_pigeon_organizer(data)
     index.each do |value, names|
       names.each do |name|
         results[name]= {}
-        resuls[name][value]= []
-        result[name][value] << value.to_s
+        results[name][value]= []
+        results[name][value] << value.to_s
       end
     end
   end
